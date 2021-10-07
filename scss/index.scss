@@ -1,0 +1,20 @@
+// VARIALS
+@import "./utils/varials";
+@import "./utils/animations";
+
+// GLOBAL
+@import "./utils/normalize";
+@import "./utils/global";
+
+// PARTIALS
+@import "./partials/footer";
+@import "./partials/header";
+
+// VIEWS
+@import "./views/aupair-life";
+@import "./views/contacto";
+@import "./views/home";
+@import "./views/sobre-mi";
+@import "./views/viajes/alaska";
+@import "./views/viajes/ny";
+@import "./views/viajes/mexico";

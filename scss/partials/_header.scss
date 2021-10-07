@@ -1,0 +1,42 @@
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(250, 232, 238);
+    line-height: 1px;
+        & h1 {
+        text-align: center;
+        color: rgb(56, 49, 53);
+        font-family: 'Dancing Script';
+        font-size: 3em;
+    }
+        & h2 {
+            text-align: center;
+            font-family: 'Nunito' ;
+            font-size: 1em;
+            font-style: italic;
+    }
+        & h1.encabezado__index {
+            animation-duration: 1s;
+            animation-name: aparecer;
+            animation-iteration-count: 1;
+            }   
+        
+}
+
+
+#menu {
+    background-color: rgb(219, 219, 219);
+    padding: 0 10rem;
+}
+
+li 
+{
+    padding: 0 6rem;
+}
+
+ul li:hover {
+    background-color: rgb(161, 158, 156);
+    transition: background-color .8s;
+}

@@ -1,0 +1,17 @@
+footer {
+    background-color:rgb(238, 220, 232) ;
+    display: flex;
+&  h1 {
+    color: rgb(63, 57, 61);
+    font-family: 'Dancing Script';
+    font-size: 1,3em;}
+& h2 {
+    font-family: 'Nunito' ;
+    font-size: .8em;
+    font-style: italic;
+    color: rgb(109, 101, 106);
+}  
+}
+footer img {
+    width: 20px;
+}

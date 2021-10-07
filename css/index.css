@@ -1,0 +1,149 @@
+/* ANIMATIONS */
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: normal;
+    opacity: 1; } }
+
+@keyframes aparecer {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+    transform: rotate(-540deg) scale(0);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1; } }
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    opacity: 1; } }
+
+html {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  font-size: 62,5%;
+  overflow-x: hidden; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #6b0b2b;
+  font-family: 'Nunito';
+  font-style: italic; }
+
+p {
+  font-family: 'Nunito'; }
+
+.titulos {
+  color: #dd066a;
+  font-weight: bolder;
+  font-family: 'Nunito';
+  font-weight: bolder;
+  animation-name: tracking-in-expand;
+  animation-iteration-count: 1;
+  animation-duration: 1s; }
+
+.subtitulos {
+  color: #be558a;
+  font-family: 'Nunito';
+  font-weight: lighter;
+  animation-name: tracking-in-expand;
+  animation-iteration-count: 1;
+  animation-duration: 1s; }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+  align-items: center; }
+  .main__article {
+    display: flex;
+    flex-direction: column;
+    width: 80%; }
+
+footer {
+  background-color: #eedce8;
+  display: flex; }
+  footer h1 {
+    color: #3f393d;
+    font-family: 'Dancing Script';
+    font-size: 1,3em; }
+  footer h2 {
+    font-family: 'Nunito';
+    font-size: .8em;
+    font-style: italic;
+    color: #6d656a; }
+
+footer img {
+  width: 20px; }
+
+.encabezado {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 10%;
+  background-color: #fae8ee;
+  line-height: 1px; }
+  .encabezado h1 {
+    text-align: center;
+    color: #383135;
+    font-family: 'Dancing Script';
+    font-size: 3em; }
+  .encabezado h2 {
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 1em;
+    font-style: italic; }
+  .encabezado h1.encabezado__index {
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: 1; }
+
+#menu {
+  background-color: #dbdbdb;
+  padding: 0 10rem; }
+
+li {
+  padding: 0 6rem; }
+
+ul li:hover {
+  background-color: #a19e9c;
+  transition: background-color .8s; }
+
+form {
+  margin-left: 5rem;
+  border: dotted;
+  padding: 3rem;
+  width: 300px; }
+
+label {
+  font-family: 'Nunito'; }
+
+img {
+  width: 100%;
+  transition: 1s; }
+
+#main__viajes {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  padding-top: 7rem;
+  justify-items: stretch;
+  gap: 7rem;
+  margin-left: 7rem;
+  margin-right: 7rem; }
