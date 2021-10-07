@@ -115,11 +115,7 @@ footer img {
     animation-iteration-count: 1; }
 
 #menu {
-  background-color: #dbdbdb;
-  padding: 0 10rem; }
-
-li {
-  padding: 0 6rem; }
+  background-color: #dbdbdb; }
 
 ul li:hover {
   background-color: #a19e9c;
