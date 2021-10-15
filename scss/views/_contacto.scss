@@ -1,10 +1,20 @@
 // CONTACTO
-form {
-    margin-left: 5rem ;
-    border: dotted;
+ .formulario {
     padding: 3rem;
-    width: 300px;
+    width: 600px;
+}
+.titulo-contacto {
+    padding: 3rem;
 }
 label {
     font-family: 'Nunito';  
+}
+@media (max-width:450px){
+.formulario {
+    width: 300px;
+    padding: 0;
+}
+.titulo-contacto {
+    padding: 3rem;
+}
 }
