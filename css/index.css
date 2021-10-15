@@ -252,7 +252,7 @@ img {
     align-self: center;
     margin-top: 100px; } }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
