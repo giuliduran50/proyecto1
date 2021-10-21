@@ -5,7 +5,7 @@ padding: 0;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 }
-
+@media (min-width:1000px) {
 .wrap{
 width: 100%;
 height: 100%;
@@ -41,8 +41,11 @@ transition: .7s ease;
 -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 
+h5.subtitulos {
+    display: none;
 }
 
+}
 .adelante, .atras{
 width: 100%;
 height: 100%;
@@ -195,25 +198,5 @@ background-image: url(../public/bedtime.svg);
 background-size: 60px;
 background-repeat: no-repeat;
 background-position: center
-}
-@media screen and (max-width:1024px) {
-    .wrap {
-width: 100%;
-height: 100%;
-margin: 50px auto;
-display: grid;
-grid-template-columns: 4;
-grid-template-rows: auto;
-    }
-
-.tarjeta {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg)
-}
-.atras {
-    width: 100%;
-}
-.adelante{
-    display: none;
 }
 }
