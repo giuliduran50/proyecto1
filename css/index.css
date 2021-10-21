@@ -302,8 +302,6 @@ body {
     display: grid;
     grid-template-columns: 4;
     grid-template-rows: auto; }
-  .adelante {
-    display: none; }
   .tarjeta {
     transform: rotateY(180deg); } }
 
