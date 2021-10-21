@@ -208,8 +208,12 @@ grid-template-rows: auto;
 
 .tarjeta {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg)
 }
 .atras {
     width: 100%;
+}
+.adelante{
+    display: none;
 }
 }
